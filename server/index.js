@@ -32,6 +32,6 @@ app.use('/api/topics', require('./routes/topics'));
 app.use('/api/progress', require('./routes/progress'));
 app.use('/api/user', require('./routes/user'));
 
-app.listen(PORT, HOST, () => {
+app.listen(PORT, () => {
   console.log(`Server is running on http://${HOST}:${PORT}`);
 });
